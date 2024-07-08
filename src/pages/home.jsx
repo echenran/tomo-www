@@ -51,13 +51,20 @@ export default function Home() {
   
   return (
     <div className="landing-page">
-      <img className="icon" src="https://cdn.glitch.global/2b763855-0676-4a78-81bd-d4a7270796fd/Screenshot_2024-05-01_at_8.59.19_PM-removebg-preview.png?v=1714622410874"></img>
-      <h1 className="title">hello, i’m tomo. <br /> <span className={`salutation ${fade ? 'fade-in' : 'fade-out'}`}> {salutation} </span></h1>
-      <div className="tagline">
-        an ai-powered language speaking partner tailored to your proficiency
-      </div>
-      <a href="https://forms.gle/sFsNqh78DDSjKeX99"><button className="button"> join the waitlist </button></a>
-      <div className="footer">made with ♥ by <a href="https://www.linkedin.com/in/emirakdere/">Emir Akdere</a> and <a href="http://www.eddiejiao.com/">Eddie Jiao</a></div>
+			<div className="header">
+				<a className="navLink" href="https://forms.gle/QJK2AxWrBBdSQKoMA" target="_blank">
+					<div>contact us</div>
+				</a>
+			</div>
+			<div className="mainLockup">
+				<img className="icon" src="https://cdn.glitch.global/2b763855-0676-4a78-81bd-d4a7270796fd/Screenshot_2024-05-01_at_8.59.19_PM-removebg-preview.png?v=1714622410874"></img>
+				<h1 className="title">hello, i’m tomo. <br /> <span className={`salutation ${fade ? 'fade-in' : 'fade-out'}`}> {salutation} </span></h1>
+				<div className="tagline">
+					an ai-powered language speaking partner tailored to your proficiency
+				</div>
+				<a href="https://forms.gle/sFsNqh78DDSjKeX99"><button className="button"> join the waitlist </button></a>
+			</div>
+      <div className="footer">made with ♥ by <a href="https://www.linkedin.com/in/emirakdere/" target="_blank">Emir Akdere</a>, <a href="http://www.eddiejiao.com/" target="_blank">Eddie Jiao</a>, and <a href="https://www.echenran.xyz/" target="_blank">Emmett Chen-Ran</a></div>
     </div>
   );
 }
