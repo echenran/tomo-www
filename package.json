@@ -1,12 +1,13 @@
 {
   "name": "glitch-hello-react",
   "version": "0.0.5",
-  "homepage": "https://echenran.github.io/tomo-www",
+  "homepage": "https://hello-tomo.com",
   "description": "A simple React single page app, built with Vite and React.",
   "scripts": {
     "start": "vite",
     "build": "vite build --base=./",
     "serve": "vite preview",
+    "preview": "vite preview --port 8080",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
