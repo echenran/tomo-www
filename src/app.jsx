@@ -23,7 +23,7 @@ import Seo from './components/seo.jsx';
 // Home function that is reflected across the site
 export default function Home() {
   return (
-    <Router base="/"> //alternate with `base="/tomo-www" or removing entirely`
+    <Router base="/"> {/*alternate with `base="/tomo-www" or removing entirely`*/}
       <Seo />
       <main role="main" className="wrapper">
         <div className="content">

@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/", //used to be "/tomo-www/"
+  base: "/", //used to be "/tomo-www/" for non-custom URL
   build: {
     outDir: "build"
   },
